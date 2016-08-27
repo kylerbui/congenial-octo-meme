@@ -12,6 +12,6 @@ possible_activities = list_raw_text.split()
 # choice of what we are going to do
 the_activity = random.choice(possible_activities)
 
-# display the results to the end user
+# display the results to the end user.
 print "Possible activities are: " + str(possible_activities)
 print "What we are going to do: " + the_activity
